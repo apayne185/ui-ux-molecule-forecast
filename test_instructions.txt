@@ -1,0 +1,17 @@
+Task:												
+"Using the provided data set, create a forecast using Python and place the results in the highlighted cells within the range of G4261:H5599 (please change only cells marked with yellow to ensure we can check your forecast).
+Create a 5-slide presentation detailing your approach to solving the problem.
+Share the presentation and the workbook (or the code that contains your solution)."												
+												
+												
+												
+												
+Success criteria:												
+1. Accuracy of the forecast.												
+2. Ability to visualize data (using Python or any other tool you prefer: Excel, Power BI, Qlik…etc).												
+3. Ability to explain the logic of your solution.												
+												
+Limitations: using or referencing any external dataset puts candidates in unequal conditions; it is not allowed and may lead to lower scores for the task.												
+The use of LLMs is allowed strictly for demonstrating your Python skills - such as integrating LLMs within your code, but not for completing the task itself.												
+												
+*please note that it's modified data set based on the real data												
