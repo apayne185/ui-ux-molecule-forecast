@@ -49,3 +49,22 @@ Encoded MoleculeName, TradeName, and ProductName
 Lag features: Previous month's value or pack count
 Rolling averages: Calculate rolling averages (e.g., average over 3 or 6 months) for Packs or Value to smooth out noise
 Month of Year: Encode the month to capture seasonality (e.g., 1 for January, 2 for February, etc.)
+
+
+
+✅ Check Residuals (Errors)
+
+Plot y_test - y_pred to see if there are patterns in the errors (seasonality, trends).
+If errors are not randomly distributed, the model might be missing key time-dependent structures.
+✅ Feature Importance Analysis
+
+Extract XGBoost’s feature importances to see which ones contribute most to predictions.
+If some features are unimportant, removing them can reduce noise and improve accuracy.
+✅ Try Time-Series-Specific Models (SARIMA, Prophet)
+
+XGBoost is not inherently built for time series, so trying SARIMA or Prophet may provide better trend and seasonality modeling.
+✅ Hybrid Modeling Approach
+
+Combine XGBoost with ARIMA/SARIMA (e.g., using XGBoost for residuals of a time-series model).
+This can improve forecasting stability.
+Would you like me to implement feature im
